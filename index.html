@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <section>
+
+    <main>
+        
         <h1>TODO APP</h1>
-        <p>
-            <input type="text" name="todo" id="todolist"placeholder="Insira um texto aqui...">
-            <input type="button" value="+">
-        </p>
-    </section>
+        
+        <div id="list">
+            
+                <input type="text" name="todo" id="todolist"placeholder="Insira um texto aqui..." required>
+            
+            <button type="button" onclick="adicionar()">+</button>
+            
+        </div>
+
+
+    </main>
+
+    <script src="js/script.js"></script>
+
 </body>
 </html>
